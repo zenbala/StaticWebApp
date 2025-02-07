@@ -3,7 +3,7 @@ import NavBar from '../components/Navbar/NavBar';
 import Footer from '../components/Footer';
 import {useDocTitle} from '../components/CustomHook';
 import axios from 'axios';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import Notiflix from 'notiflix';
 
 const Contact = () => {
@@ -13,6 +13,7 @@ const Contact = () => {
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
+    const [file, setFile] = useState(null); // State to hold the file
     const [errors, setErrors] = useState([])
 
     const clearErrors = () => {
@@ -24,7 +25,7 @@ const Contact = () => {
         setLastName('')
         setEmail('')
         setPhone('')
-        setMessage('')
+        setFile('')
     }
 
     const sendEmail = (e) => {
@@ -36,7 +37,9 @@ const Contact = () => {
         fData.append('last_name', lastName)
         fData.append('email', email)
         fData.append('phone_number', phone)
-        fData.append('message', message)
+        if (file) {
+            fData.append('file', file); // Append the file to the FormData
+        }
 
         axios({
             method: "post",
@@ -150,19 +153,18 @@ const Contact = () => {
                                     }
                                 </div>
                         </div>
+
                         <div className="my-4">
-                            <textarea 
-                                name="message" 
-                                placeholder="Message*" 
-                                className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                                value={message}
-                                onChange={(e)=> setMessage(e.target.value)}
-                                onKeyUp={clearErrors}
-                            ></textarea>
-                            {errors && 
-                                <p className="text-red-500 text-sm">{errors.message}</p>
-                            }
-                        </div>
+                                {/* File upload section */}
+                                <input
+                                    type="file"
+                                    name="file"
+                                    className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                    onChange={(e) => setFile(e.target.files[0])}
+                                />
+                                {errors && <p className="text-red-500 text-sm">{errors.file}</p>}
+                            </div>
+
                         <div className="my-2 w-1/2 lg:w-2/4">
                             <button type="submit" id="submitBtn" className="uppercase text-sm font-bold tracking-wide bg-gray-500 hover:bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
                                     focus:outline-none focus:shadow-outline">
@@ -181,7 +183,7 @@ const Contact = () => {
                                     </div>
                                     <div className="flex flex-col">
                                         <h2 className="text-2xl">Office Address</h2>
-                                        <p className="text-gray-400">Ilo Awela, Ota, Ogun State</p>
+                                        <p className="text-gray-400">Yugam HR Solutions, 234,ED 1477 Mettangattu Valasu, Valliarachal, Kangeyam,Tiruppur,TamilNadu-638105.</p>
                                     </div>
                                 </div>
                     
@@ -222,3 +224,6 @@ const Contact = () => {
 }
 
 export default Contact;
+
+
+
