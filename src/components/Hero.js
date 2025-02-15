@@ -17,7 +17,7 @@ const Hero = () => {
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                             {/* We build digital solutions to help businesses scale */}
-                             Jowin HR Services
+                             Yugam HR Services
                             </h1>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">HR consultancy services provide a range of functions to manage an organization's workforce, including recruitment, onboarding, training, performance management, and compensation. They also address employee relations, ensure compliance with labor laws, and maintain HR information systems. A strong HR strategy is essential for attracting, developing, and retaining talent while promoting a productive work environment. HR consultancy helps businesses optimize these practices, contributing to overall organizational success and achievement of business goals.</div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
