@@ -18,8 +18,15 @@ const Intro = () => {
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>As an experienced staffing agency, we’ve had the opportunity to work with diverse clients, allowing us to understand that each company has its own unique values, culture, and expectations from employees. We specialize in creating tailored solutions and sourcing top talent that aligns with your company’s needs. Below are some of the staffing solutions we offer:</p>
                             </div>
                             
-                            <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'> <li>Recruitment and staffing</li> <li> Training and development </li> <li> Compansation and Benefits</li> <li>HR Information and Management Systems</li><li>Health Safety</li> <li>Payroll System</li> </p>
+                            <div className="flex justify-center items-center px-4 py-6">
+                                <ul className="text-left my-3 text-xl text-gray-600 font-semibold space-y-2">
+                                    <li>1.Recruitment and staffing</li>
+                                    <li>2.Training and development</li>
+                                    <li>3.Compensation and Benefits</li>
+                                    <li>4.HR Information and Management Systems</li>
+                                    <li>5.Health Safety</li>
+                                    <li>6.Payroll System</li>
+                                </ul>
                             </div>
                             <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
                                 Contact us
