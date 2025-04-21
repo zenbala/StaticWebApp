@@ -3,12 +3,12 @@ import React from 'react';
 import kws from '../images/clients/kws.png';
 import geps from '../images/clients/geps.png';
 import dvara from '../images/clients/dvara.png';
-import adityaBirla from '../images/clients/AdityBirla.png';
+// import adityaBirla from '../images/clients/AdityBirla.png';
 import moti from '../images/clients/MotilalOswal.png';
 import kinara from '../images/clients/Kinara.png';
 
 const Clients = () => {
-    const logos = [adityaBirla, moti, kinara, dvara, kws, geps];
+    const logos = [moti, kinara, dvara, kws, geps];
 
     return (
         <div className="mt-8 bg-gray-100">
