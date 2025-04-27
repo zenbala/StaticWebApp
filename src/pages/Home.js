@@ -6,16 +6,23 @@ import Hero from '../components/Hero';
 import Intro from '../components/Intro';
 // import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
+import HeroTop from '../components/Herotop';
+import NavBar from '../components/Navbar/NavBar';
+// import Serviceproviders from '../components/Serviceproviders'
+import Serviceproviders from '../components/serviceproviders';
 
 
 const Home = () => {
     return (
         <>
+            <NavBar />
+            <HeroTop />
             <Hero />
-            <Intro />
+            {/* <Intro /> */}
             <Services />
             {/* <Portfolio /> */}
             <Clients />
+            <Serviceproviders />
             <Cta/>
             <Footer />
         </>

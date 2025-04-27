@@ -18,6 +18,10 @@ module.exports = {
           'scrollbar-width': 'none',
         },
       },
+      fontFamily: {
+        sans: ['Satoshi-Regular', 'sans-serif'],
+ // Default sans
+      },
     //   theme: {
     //     extend: {
     //         colors: {
