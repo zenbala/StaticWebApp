@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import instaLogo from "../images/instagramicon.png";
 
 // const Footer = () => {
 //     return (
@@ -60,10 +61,10 @@ import { HashLink } from 'react-router-hash-link';
 //                     </div>
 
 //                     {/* 4th block */}
-//                     {/* <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
-//                         <div className="text-xl mb-6">
-//                             Social Media Links.
-//                         </div>
+                    {/* <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
+                        <div className="text-xl mb-6">
+                            Social Media Links.
+                        </div>
 
 //                                 <div className="text-md font-medium mb-6">
 //                                     Follow us on social media.
@@ -124,79 +125,19 @@ import { HashLink } from 'react-router-hash-link';
 // }
 // export default Footer;
 
-// const Footer = () => {
-//     return (
-//         <>
-//             <footer className="bg-gray-100 border-t border-b py-30 text-center">
-//                 <div className="footer max-w-full mx-auto px-4 sm:px-6">
-
-//                     {/* Top area: Blocks */}
-//                     <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 text-center">
-
-//                         {/* 1st block */}
-//                         <div className="col-span-12 lg:col-span-4 mx-auto">
-//                             <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-400 text-center rounded-lg xl:w-80 mx-auto">
-//                                 <h3 className="font-bold text-3xl mb-4">Yugam HR Solutions</h3>
-//                                 <div className='text-md font-medium text-gray-600'>
-//                                     <h5>Yugam HR Solutions</h5>
-//                                     <p>234, ED 1477 Mettangattu Valasu, Valliarachal, Kangeyam,</p>
-//                                     <p>Tiruppur,</p>
-//                                     <p>TamilNadu-638105.</p>
-//                                 </div>
-//                             </div>
-//                         </div>
-
-//                         {/* Links */}
-//                         <div className="col-span-6 md:col-span-6 lg:col-span-1 mx-auto">
-//                             <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
-//                             <ul className="text-md">
-//                                 <li className="mb-2"><HashLink smooth to="/#about" className="text-[#013289] hover:text-gray-900">About</HashLink></li>
-//                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Services</HashLink></li>
-//                                 <li className="mb-2"><HashLink to="/contact#contact" className="text-[#013289] hover:text-gray-900">Contact</HashLink></li>
-//                             </ul>
-//                         </div>
-
-//                         {/* Services */}
-//                         <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-//                             <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
-//                             <ul className="text-md">
-//                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Placement Services</HashLink></li>
-//                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Contract Staffing</HashLink></li>
-//                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Payroll</HashLink></li>
-//                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Training and Placement</HashLink></li>
-//                             </ul>
-//                         </div>
-//                     </div>
-
-//                     {/* Copyright Section */}
-//                     <div className="flex justify-center items-center text-center mx-auto px-4">
-//                         <div className="text-sm text-gray-600 font-semibold py-2">
-//                             Copyright &copy; {new Date().getFullYear()}{" "}
-//                             <HashLink to="#" className="hover:text-gray-900">Yugam HR Solutions</HashLink>. All rights reserved.
-//                         </div>
-//                     </div>
-
-//                 </div>
-//             </footer>
-//         </>
-//     );
-// };
-
-// export default Footer;
-
 const Footer = () => {
     return (
         <>
-            <footer className="bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 border-t border-b py-30 text-white text-center">
+            <footer className="bg-gray-100 border-t border-b py-30 text-center">
                 <div className="footer max-w-full mx-auto px-4 sm:px-6">
 
                     {/* Top area: Blocks */}
                     <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 text-center">
 
-                        {/* 1st block */}
+                        {/* Company Info */}
                         <div className="col-span-12 lg:col-span-4 mx-auto">
-                            <div className="box-border border-b-4 border-white p-8 bg-gray-200 text-gray-700 text-center rounded-lg xl:w-80 mx-auto">
-                                <h3 className="font-bold text-3xl mb-4 text-[#013289]">Yugam HR Solutions</h3>
+                            <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-400 text-center rounded-lg xl:w-80 mx-auto">
+                                <h3 className="font-bold text-3xl mb-4">Yugam HR Solutions</h3>
                                 <div className='text-md font-medium text-gray-600'>
                                     <h5>Yugam HR Solutions</h5>
                                     <p>234, ED 1477 Mettangattu Valasu, Valliarachal, Kangeyam,</p>
@@ -208,31 +149,52 @@ const Footer = () => {
 
                         {/* Links */}
                         <div className="col-span-6 md:col-span-6 lg:col-span-1 mx-auto">
-                            <h6 className="text-white text-xl font-bold mb-4">LINKS</h6>
+                            <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
                             <ul className="text-md">
-                                <li className="mb-2"><HashLink smooth to="/#about" className="text-white hover:text-gray-200">About</HashLink></li>
-                                <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Services</HashLink></li>
-                                <li className="mb-2"><HashLink to="/contact#contact" className="text-white hover:text-gray-200">Contact</HashLink></li>
+                                <li className="mb-2"><HashLink smooth to="/#about" className="text-[#013289] hover:text-gray-900">About</HashLink></li>
+                                <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Services</HashLink></li>
+                                <li className="mb-2"><HashLink to="/contact#contact" className="text-[#013289] hover:text-gray-900">Contact</HashLink></li>
                             </ul>
                         </div>
 
                         {/* Services */}
                         <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-                            <h6 className="text-white text-xl font-bold mb-4">OUR SERVICES</h6>
+                            <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                             <ul className="text-md">
-                                <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Placement Services</HashLink></li>
-                                <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Contract Staffing</HashLink></li>
-                                <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Payroll</HashLink></li>
-                                <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Training and Placement</HashLink></li>
+                                <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Placement Services</HashLink></li>
+                                <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Contract Staffing</HashLink></li>
+                                <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Payroll</HashLink></li>
+                                <li className="mb-2"><HashLink smooth to="/#services" className="text-[#013289] hover:text-gray-900">Training and Placement</HashLink></li>
                             </ul>
                         </div>
+
+                        {/* Social Media Links */}
+                        <div className="col-span-12 md:col-span-6 lg:col-span-3 mx-auto">
+                            <h6 className="text-[#013289] text-xl font-bold mb-4">FOLLOW US</h6>
+                            <ul className="text-md">
+                                <li className="mb-2">
+                                    <a href="https://www.instagram.com/yugamhr_solutions?igsh=cjdkdzd2d3NwbTI3"
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="text-[#013289] hover:text-gray-900 flex items-center space-x-2">
+                                        <img 
+                                        src={instaLogo} 
+                                        alt="Instagram Logo" 
+                                        className="h-6 w-6" />
+                                        <span>Instagram</span>
+                                        </a>
+                                        </li>
+                                        </ul>
+                                        </div>
+
+
                     </div>
 
                     {/* Copyright Section */}
                     <div className="flex justify-center items-center text-center mx-auto px-4">
-                        <div className="text-sm text-gray-200 font-semibold py-2">
+                        <div className="text-sm text-gray-600 font-semibold py-2">
                             Copyright &copy; {new Date().getFullYear()}{" "}
-                            <HashLink to="#" className="hover:text-gray-300">Yugam HR Solutions</HashLink>. All rights reserved.
+                            <HashLink to="#" className="hover:text-gray-900">Yugam HR Solutions</HashLink>. All rights reserved.
                         </div>
                     </div>
 
@@ -243,3 +205,63 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// // const Footer = () => {
+// //     return (
+// //         <>
+// //             <footer className="bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 border-t border-b py-30 text-white text-center">
+// //                 <div className="footer max-w-full mx-auto px-4 sm:px-6">
+
+// //                     {/* Top area: Blocks */}
+// //                     <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 text-center">
+
+// //                         {/* 1st block */}
+// //                         <div className="col-span-12 lg:col-span-4 mx-auto">
+// //                             <div className="box-border border-b-4 border-white p-8 bg-gray-200 text-gray-700 text-center rounded-lg xl:w-80 mx-auto">
+// //                                 <h3 className="font-bold text-3xl mb-4 text-[#013289]">Yugam HR Solutions</h3>
+// //                                 <div className='text-md font-medium text-gray-600'>
+// //                                     <h5>Yugam HR Solutions</h5>
+// //                                     <p>234, ED 1477 Mettangattu Valasu, Valliarachal, Kangeyam,</p>
+// //                                     <p>Tiruppur,</p>
+// //                                     <p>TamilNadu-638105.</p>
+// //                                 </div>
+// //                             </div>
+// //                         </div>
+
+// //                         {/* Links */}
+// //                         <div className="col-span-6 md:col-span-6 lg:col-span-1 mx-auto">
+// //                             <h6 className="text-white text-xl font-bold mb-4">LINKS</h6>
+// //                             <ul className="text-md">
+// //                                 <li className="mb-2"><HashLink smooth to="/#about" className="text-white hover:text-gray-200">About</HashLink></li>
+// //                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Services</HashLink></li>
+// //                                 <li className="mb-2"><HashLink to="/contact#contact" className="text-white hover:text-gray-200">Contact</HashLink></li>
+// //                             </ul>
+// //                         </div>
+
+// //                         {/* Services */}
+// //                         <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
+// //                             <h6 className="text-white text-xl font-bold mb-4">OUR SERVICES</h6>
+// //                             <ul className="text-md">
+// //                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Placement Services</HashLink></li>
+// //                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Contract Staffing</HashLink></li>
+// //                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Payroll</HashLink></li>
+// //                                 <li className="mb-2"><HashLink smooth to="/#services" className="text-white hover:text-gray-200">Training and Placement</HashLink></li>
+// //                             </ul>
+// //                         </div>
+// //                     </div>
+
+// //                     {/* Copyright Section */}
+// //                     <div className="flex justify-center items-center text-center mx-auto px-4">
+// //                         <div className="text-sm text-gray-200 font-semibold py-2">
+// //                             Copyright &copy; {new Date().getFullYear()}{" "}
+// //                             <HashLink to="#" className="hover:text-gray-300">Yugam HR Solutions</HashLink>. All rights reserved.
+// //                         </div>
+// //                     </div>
+
+// //                 </div>
+// //             </footer>
+// //         </>
+// //     );
+// // };
+
+// export default Footer;

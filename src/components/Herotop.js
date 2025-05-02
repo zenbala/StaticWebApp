@@ -21,8 +21,8 @@ const HeroTop = () => {
 
         {/* Content */}
         <div className="herotop-content text-white px-6 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold">
-            Expert HR Solutions<br />
+          <h1 className="text-4xl md:text-5xl font-bold mb-2 md:mb-4">
+            Expert HR Solutions <br />
             That Fuel Business Growth
           </h1>
           <p className="text-xl mt-4">

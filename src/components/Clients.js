@@ -20,9 +20,9 @@ const Clients = () => {
           <div className="flex justify-center">
             <div className="w-24 border-b-4 border-blue-900"></div>
           </div>
-          <h2 className="mt-4 mx-4 text-center text-lg sm:text-xl lg:text-2xl font-semibold text-blue-900">
+          {/* <h2 className="mt-4 mx-4 text-center text-lg sm:text-xl lg:text-2xl font-semibold text-blue-900">
             Some of our clients.
-          </h2>
+          </h2> */}
         </div>
 
         <div className="px-4 sm:px-8 pb-8">
