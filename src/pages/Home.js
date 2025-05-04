@@ -15,7 +15,7 @@ import Serviceproviders from '../components/serviceproviders';
 const Home = () => {
     return (
         <>
-            <NavBar />
+            {/* <NavBar /> */}
             <HeroTop />
             <Hero />
             {/* <Intro /> */}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link'; 
 import NavLinks from './NavLinks'; 
-import companylogo from '../../images/clients/logo.png'; 
+import companylogo from '../../images/clients/logowbg.png'; 
 import instagramLogo from '../../images/instagramicon.png'; 
 
 const NavBar = () => {

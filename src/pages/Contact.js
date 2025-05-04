@@ -38,17 +38,20 @@ const Contact = () => {
     return (
         <>
             <NavBar />
-            <div className="flex justify-center items-center w-full mt-10">
-                <iframe 
-                    data-tally-src="https://tally.so/embed/nGqOJz?hideTitle=1&transparentBackground=1"
-                    loading="lazy"
-                    width="90%" 
-                    height="1127"
-                    title="SEND US MESSAGE"
-                    className="shadow-lg rounded-md"
-                    style={{ maxWidth: '800px', display: 'block', paddingTop: '20px' }} 
-                ></iframe>
-            </div>
+
+            <div class="w-full flex justify-center items-center py-10">
+    <iframe 
+        data-tally-src="https://tally.so/embed/wdpWgy?hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+        loading="lazy" 
+        width="100%" 
+        height="877" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0" 
+        title="Registration form"
+        class="max-w-screen-lg rounded-md shadow-lg"
+    ></iframe>
+</div>
 
             <Footer />
         </>

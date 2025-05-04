@@ -45,17 +45,17 @@ const Services = () => {
                                 <span className="font-black">Why Choose Yugam HR Services?</span>
                             </h3>
                             <div>
-                                <p className="my-3 text-xl text-gray-600 font-semibold text-left">
-                                    At Yugam HR Services, we are committed to delivering expert HR solutions that drive business success.
-                                </p>
-                                <ul className="mt-4 list-disc list-inside text-gray-700 text-lg sm:text-xl">
-                                    <li><strong>Expertise in HR Consulting</strong></li>
-                                    <li><strong>Customized HR Solutions</strong></li>
-                                    <li><strong>End-to-End HR Support</strong></li>
-                                    <li><strong>Proven Track Record of Success</strong></li>
-                                    <li><strong>Focus on Employee Engagement</strong></li>
-                                </ul>
-                            </div>
+                                <p className="my-4 text-2xl text-center text-gray-800">
+                                    At Yugam HR Solutions, we are committed to delivering expert HR solutions that drive business success.
+                                    </p>
+                                    <ul className="mt-4 list-disc list-inside text-gray-800 text-lg sm:text-xl camelcase">
+                                        <li>Customized & Scalable HR Solutions</li>
+                                        <li>End-to-End Support Across All HR Functions</li>
+                                        <li>Proven Recruitment & Retention Success</li>
+                                        <li>Focus on Long-Term Client Partnerships</li>
+                                        <li>Deep Industry Expertise Across Sectors</li>
+                                        </ul>
+                                        </div>
                         </div>
 
                         {/* Right Section - Image */}

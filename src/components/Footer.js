@@ -137,9 +137,8 @@ const Footer = () => {
                         {/* Company Info */}
                         <div className="col-span-12 lg:col-span-4 mx-auto">
                             <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-400 text-center rounded-lg xl:w-80 mx-auto">
-                                <h3 className="font-bold text-3xl mb-4">Yugam HR Solutions</h3>
+                            <h3 className="font-extrabold text-3xl text-gray-900 mb-4">Yugam HR Solutions</h3>
                                 <div className='text-md font-medium text-gray-600'>
-                                    <h5>Yugam HR Solutions</h5>
                                     <p>234, ED 1477 Mettangattu Valasu, Valliarachal, Kangeyam,</p>
                                     <p>Tiruppur,</p>
                                     <p>TamilNadu-638105.</p>

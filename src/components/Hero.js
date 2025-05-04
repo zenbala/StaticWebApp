@@ -8,7 +8,7 @@ const Hero = () => {
     return (
         <>
             {/* Include Navbar if needed */}
-            <NavBar />
+            {/* <NavBar /> */}
 
             <div className="hero" id="hero">
                 <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-4 md:p-12 h-5/6" data-aos="zoom-in">
@@ -18,14 +18,15 @@ const Hero = () => {
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h2 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">Who We Are</h2>
                             
-                            <p className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
-                                Yugam HR Solutions, based in Tiruppur, offers expert HR consultancy services to help
-                                businesses attract, develop, and retain top talent. We specialize in recruitment, onboarding,
-                                performance management, training, and labor law compliance. Our customized HR strategies
+                            <p className="text-xl tracking-tight mb-5 text-black">
+                                Yugam HR Solutions, based in Tiruppur, offers expert HR consultancy services to help 
+                                businesses attract, develop, and retain top talent. We specialize in recruitment, onboarding, 
+                                performance management, training, and labor law compliance. Our customized HR strategies 
                                 are designed to boost productivity, enhance employee engagement, and drive sustainable growth. 
                                 Whether you're a startup or an established company, we tailor solutions to meet your unique needs. 
                                 Partner with Yugam HR Solutions to build a skilled, motivated workforce that fuels your success.
-                            </p>
+                                </p>
+
                             
                             {/* Enquire Now Button */}
                             <div className="mb-4 md:mb-8">
