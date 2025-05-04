@@ -9,13 +9,12 @@ const HeroTop = () => {
   return (
     <>
       {/* Navbar Fixed at the Top */}
-      <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
-        <NavBar />
-      </header>
+      <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 pb-20">
+  <NavBar />
+</header>
 
-      {/* Hero Section - Optimized for Mobile Screens */}
-      <div className="herotop w-screen min-h-screen flex flex-col justify-center items-center text-center relative overflow-hidden mt-[80px] sm:mt-[100px]">
-        
+<div className="herotop w-screen min-h-screen flex flex-col justify-center items-center text-center relative overflow-hidden pt-[120px] sm:pt-[140px]">
+     
         {/* Background Image - Stretches Dynamically */}
         <img 
           src={backgroundImg} 
