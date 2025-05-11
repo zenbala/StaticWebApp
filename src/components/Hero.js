@@ -16,7 +16,7 @@ const Hero = () => {
                         
                         {/* Left Container: Text Section */}
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                            <h2 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">Who We Are</h2>
+                            <h2 className="mb-5 md:text-4xl text-3xl font-bold text-blue-900">Who We Are</h2>
                             
                             <p className="text-xl tracking-tight mb-5 text-black">
                                 Yugam HR Solutions, based in Tiruppur, offers expert HR consultancy services to help 
